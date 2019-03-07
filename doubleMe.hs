@@ -1,8 +1,15 @@
+o = "9"
+m = [10,11,12]
 
-fizzBuzz n f b = [if x `mod`(f*b) == 0 then "FizzBuzz"
-  else 
-    if x `mod` f == 0 then "Fizz"
-      else
-        if x `mod` b == 0 then "Buzz"
-          else show x
-            | x <- [1..n]] 
+one = '9'
+many = "876"
+
+more = [10..100]
+
+add = [x+2 | x <- more]
+
+num = [1..8]
+
+nums = [1,2,3]
+fnums = [4.0, 5.0, 6.0]
+    
